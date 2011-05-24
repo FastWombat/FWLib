@@ -8,12 +8,65 @@
 
 /* Begin PBXBuildFile section */
 		4792606D138BE650006758E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4792606C138BE650006758E5 /* Foundation.framework */; };
+		479260AC138BE8F2006758E5 /* FWLib-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 479260AB138BE8F2006758E5 /* FWLib-Prefix.pch */; };
+		479260B0138BE9BE006758E5 /* FWMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 479260AF138BE9BE006758E5 /* FWMacros.h */; settings = {ATTRIBUTES = (); }; };
+		479260B4138BEECC006758E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479260B3138BEECC006758E5 /* CoreData.framework */; };
+		47926109138C1FC1006758E5 /* FWKeyValueObserver+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926105138C1FC1006758E5 /* FWKeyValueObserver+Blocks.h */; };
+		4792610A138C1FC1006758E5 /* FWKeyValueObserver+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926106138C1FC1006758E5 /* FWKeyValueObserver+Blocks.m */; };
+		4792610B138C1FC1006758E5 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926107138C1FC1006758E5 /* NSData+Base64.h */; };
+		4792610C138C1FC1006758E5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926108138C1FC1006758E5 /* NSData+Base64.m */; };
+		47926122138C1FE1006758E5 /* FWReselectableSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4792610E138C1FE1006758E5 /* FWReselectableSegmentedControl.h */; };
+		47926123138C1FE1006758E5 /* FWReselectableSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792610F138C1FE1006758E5 /* FWReselectableSegmentedControl.m */; };
+		47926124138C1FE1006758E5 /* FWRoundedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926110138C1FE1006758E5 /* FWRoundedImageView.h */; };
+		47926125138C1FE1006758E5 /* FWRoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926111138C1FE1006758E5 /* FWRoundedImageView.m */; };
+		47926126138C1FE1006758E5 /* FWUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926112138C1FE1006758E5 /* FWUIKit.h */; };
+		47926127138C1FE1006758E5 /* FWUITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926113138C1FE1006758E5 /* FWUITableViewCell.h */; };
+		47926128138C1FE1006758E5 /* FWUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926114138C1FE1006758E5 /* FWUITableViewCell.m */; };
+		47926129138C1FE1006758E5 /* FWUIViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926115138C1FE1006758E5 /* FWUIViewAdditions.h */; };
+		4792612A138C1FE1006758E5 /* FWUIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926116138C1FE1006758E5 /* FWUIViewAdditions.m */; };
+		4792612B138C1FE1006758E5 /* FWUIViewControllerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926117138C1FE1006758E5 /* FWUIViewControllerAdditions.h */; };
+		4792612C138C1FE1006758E5 /* FWUIViewControllerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926118138C1FE1006758E5 /* FWUIViewControllerAdditions.m */; };
+		4792612D138C1FE1006758E5 /* FWCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4792611A138C1FE1006758E5 /* FWCoreData.h */; };
+		4792612E138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4792611B138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.h */; };
+		4792612F138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792611C138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.m */; };
+		47926130138C1FE1006758E5 /* NSManagedObject+DebugProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792611D138C1FE1006758E5 /* NSManagedObject+DebugProperties.m */; };
+		47926131138C1FE1006758E5 /* NSManagedObjectContextExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4792611E138C1FE1006758E5 /* NSManagedObjectContextExtensions.h */; };
+		47926132138C1FE1006758E5 /* NSManagedObjectContextExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792611F138C1FE1006758E5 /* NSManagedObjectContextExtensions.m */; };
+		47926133138C1FE1006758E5 /* NSManagedObjectExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926120138C1FE1006758E5 /* NSManagedObjectExtensions.h */; };
+		47926134138C1FE1006758E5 /* NSManagedObjectExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926121138C1FE1006758E5 /* NSManagedObjectExtensions.m */; };
+		47926136138C2071006758E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47926135138C2071006758E5 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47926069138BE650006758E5 /* libFWLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFWLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4792606C138BE650006758E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		47926070138BE650006758E5 /* FWLib-Prefix.pch */ = {isa = PBXFileReference; path = "FWLib-Prefix.pch"; sourceTree = "<group>"; };
+		479260AB138BE8F2006758E5 /* FWLib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FWLib-Prefix.pch"; sourceTree = "<group>"; };
+		479260AF138BE9BE006758E5 /* FWMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWMacros.h; sourceTree = "<group>"; };
+		479260B3138BEECC006758E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		47926105138C1FC1006758E5 /* FWKeyValueObserver+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FWKeyValueObserver+Blocks.h"; sourceTree = "<group>"; };
+		47926106138C1FC1006758E5 /* FWKeyValueObserver+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FWKeyValueObserver+Blocks.m"; sourceTree = "<group>"; };
+		47926107138C1FC1006758E5 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		47926108138C1FC1006758E5 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		4792610E138C1FE1006758E5 /* FWReselectableSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWReselectableSegmentedControl.h; sourceTree = "<group>"; };
+		4792610F138C1FE1006758E5 /* FWReselectableSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWReselectableSegmentedControl.m; sourceTree = "<group>"; };
+		47926110138C1FE1006758E5 /* FWRoundedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWRoundedImageView.h; sourceTree = "<group>"; };
+		47926111138C1FE1006758E5 /* FWRoundedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWRoundedImageView.m; sourceTree = "<group>"; };
+		47926112138C1FE1006758E5 /* FWUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWUIKit.h; sourceTree = "<group>"; };
+		47926113138C1FE1006758E5 /* FWUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWUITableViewCell.h; sourceTree = "<group>"; };
+		47926114138C1FE1006758E5 /* FWUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWUITableViewCell.m; sourceTree = "<group>"; };
+		47926115138C1FE1006758E5 /* FWUIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWUIViewAdditions.h; sourceTree = "<group>"; };
+		47926116138C1FE1006758E5 /* FWUIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWUIViewAdditions.m; sourceTree = "<group>"; };
+		47926117138C1FE1006758E5 /* FWUIViewControllerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWUIViewControllerAdditions.h; sourceTree = "<group>"; };
+		47926118138C1FE1006758E5 /* FWUIViewControllerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWUIViewControllerAdditions.m; sourceTree = "<group>"; };
+		4792611A138C1FE1006758E5 /* FWCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWCoreData.h; sourceTree = "<group>"; };
+		4792611B138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFetchedResultsControllerExtensions.h; sourceTree = "<group>"; };
+		4792611C138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFetchedResultsControllerExtensions.m; sourceTree = "<group>"; };
+		4792611D138C1FE1006758E5 /* NSManagedObject+DebugProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+DebugProperties.m"; sourceTree = "<group>"; };
+		4792611E138C1FE1006758E5 /* NSManagedObjectContextExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSManagedObjectContextExtensions.h; sourceTree = "<group>"; };
+		4792611F138C1FE1006758E5 /* NSManagedObjectContextExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSManagedObjectContextExtensions.m; sourceTree = "<group>"; };
+		47926120138C1FE1006758E5 /* NSManagedObjectExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSManagedObjectExtensions.h; sourceTree = "<group>"; };
+		47926121138C1FE1006758E5 /* NSManagedObjectExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSManagedObjectExtensions.m; sourceTree = "<group>"; };
+		47926135138C2071006758E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,7 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479260B4138BEECC006758E5 /* CoreData.framework in Frameworks */,
 				4792606D138BE650006758E5 /* Foundation.framework in Frameworks */,
+				47926136138C2071006758E5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -31,7 +86,10 @@
 		4792605E138BE650006758E5 = {
 			isa = PBXGroup;
 			children = (
-				4792606E138BE650006758E5 /* FWLib */,
+				4792610D138C1FE1006758E5 /* FWUIKit */,
+				47926119138C1FE1006758E5 /* FWCoreData */,
+				47926104138C1FC1006758E5 /* FWFramework */,
+				479260AA138BE8F2006758E5 /* Supporting */,
 				4792606B138BE650006758E5 /* Frameworks */,
 				4792606A138BE650006758E5 /* Products */,
 			);
@@ -48,25 +106,68 @@
 		4792606B138BE650006758E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47926135138C2071006758E5 /* UIKit.framework */,
+				479260B3138BEECC006758E5 /* CoreData.framework */,
 				4792606C138BE650006758E5 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4792606E138BE650006758E5 /* FWLib */ = {
+		479260AA138BE8F2006758E5 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
-				4792606F138BE650006758E5 /* Supporting Files */,
+				479260AF138BE9BE006758E5 /* FWMacros.h */,
+				479260AB138BE8F2006758E5 /* FWLib-Prefix.pch */,
 			);
-			path = FWLib;
+			name = Supporting;
+			path = Sources/Supporting;
 			sourceTree = "<group>";
 		};
-		4792606F138BE650006758E5 /* Supporting Files */ = {
+		47926104138C1FC1006758E5 /* FWFramework */ = {
 			isa = PBXGroup;
 			children = (
-				47926070138BE650006758E5 /* FWLib-Prefix.pch */,
+				47926105138C1FC1006758E5 /* FWKeyValueObserver+Blocks.h */,
+				47926106138C1FC1006758E5 /* FWKeyValueObserver+Blocks.m */,
+				47926107138C1FC1006758E5 /* NSData+Base64.h */,
+				47926108138C1FC1006758E5 /* NSData+Base64.m */,
 			);
-			name = "Supporting Files";
+			name = FWFramework;
+			path = Sources/FWFramework;
+			sourceTree = "<group>";
+		};
+		4792610D138C1FE1006758E5 /* FWUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4792610E138C1FE1006758E5 /* FWReselectableSegmentedControl.h */,
+				4792610F138C1FE1006758E5 /* FWReselectableSegmentedControl.m */,
+				47926110138C1FE1006758E5 /* FWRoundedImageView.h */,
+				47926111138C1FE1006758E5 /* FWRoundedImageView.m */,
+				47926112138C1FE1006758E5 /* FWUIKit.h */,
+				47926113138C1FE1006758E5 /* FWUITableViewCell.h */,
+				47926114138C1FE1006758E5 /* FWUITableViewCell.m */,
+				47926115138C1FE1006758E5 /* FWUIViewAdditions.h */,
+				47926116138C1FE1006758E5 /* FWUIViewAdditions.m */,
+				47926117138C1FE1006758E5 /* FWUIViewControllerAdditions.h */,
+				47926118138C1FE1006758E5 /* FWUIViewControllerAdditions.m */,
+			);
+			name = FWUIKit;
+			path = Sources/FWUIKit;
+			sourceTree = "<group>";
+		};
+		47926119138C1FE1006758E5 /* FWCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4792611A138C1FE1006758E5 /* FWCoreData.h */,
+				4792611B138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.h */,
+				4792611C138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.m */,
+				4792611D138C1FE1006758E5 /* NSManagedObject+DebugProperties.m */,
+				4792611E138C1FE1006758E5 /* NSManagedObjectContextExtensions.h */,
+				4792611F138C1FE1006758E5 /* NSManagedObjectContextExtensions.m */,
+				47926120138C1FE1006758E5 /* NSManagedObjectExtensions.h */,
+				47926121138C1FE1006758E5 /* NSManagedObjectExtensions.m */,
+			);
+			name = FWCoreData;
+			path = Sources/FWCoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -76,6 +177,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479260AC138BE8F2006758E5 /* FWLib-Prefix.pch in Headers */,
+				479260B0138BE9BE006758E5 /* FWMacros.h in Headers */,
+				47926109138C1FC1006758E5 /* FWKeyValueObserver+Blocks.h in Headers */,
+				4792610B138C1FC1006758E5 /* NSData+Base64.h in Headers */,
+				47926122138C1FE1006758E5 /* FWReselectableSegmentedControl.h in Headers */,
+				47926124138C1FE1006758E5 /* FWRoundedImageView.h in Headers */,
+				47926126138C1FE1006758E5 /* FWUIKit.h in Headers */,
+				47926127138C1FE1006758E5 /* FWUITableViewCell.h in Headers */,
+				47926129138C1FE1006758E5 /* FWUIViewAdditions.h in Headers */,
+				4792612B138C1FE1006758E5 /* FWUIViewControllerAdditions.h in Headers */,
+				4792612D138C1FE1006758E5 /* FWCoreData.h in Headers */,
+				4792612E138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.h in Headers */,
+				47926131138C1FE1006758E5 /* NSManagedObjectContextExtensions.h in Headers */,
+				47926133138C1FE1006758E5 /* NSManagedObjectExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +244,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4792610A138C1FC1006758E5 /* FWKeyValueObserver+Blocks.m in Sources */,
+				4792610C138C1FC1006758E5 /* NSData+Base64.m in Sources */,
+				47926123138C1FE1006758E5 /* FWReselectableSegmentedControl.m in Sources */,
+				47926125138C1FE1006758E5 /* FWRoundedImageView.m in Sources */,
+				47926128138C1FE1006758E5 /* FWUITableViewCell.m in Sources */,
+				4792612A138C1FE1006758E5 /* FWUIViewAdditions.m in Sources */,
+				4792612C138C1FE1006758E5 /* FWUIViewControllerAdditions.m in Sources */,
+				4792612F138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.m in Sources */,
+				47926130138C1FE1006758E5 /* NSManagedObject+DebugProperties.m in Sources */,
+				47926132138C1FE1006758E5 /* NSManagedObjectContextExtensions.m in Sources */,
+				47926134138C1FE1006758E5 /* NSManagedObjectExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,10 +269,11 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -156,10 +283,11 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -170,8 +298,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DSTROOT = /tmp/FWLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FWLib/FWLib-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				GCC_PREFIX_HEADER = "Sources/Supporting/FWLib-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -182,8 +309,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DSTROOT = /tmp/FWLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FWLib/FWLib-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				GCC_PREFIX_HEADER = "Sources/Supporting/FWLib-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -207,6 +333,7 @@
 				47926075138BE650006758E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
