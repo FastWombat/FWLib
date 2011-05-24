@@ -67,6 +67,7 @@
 		47926120138C1FE1006758E5 /* NSManagedObjectExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSManagedObjectExtensions.h; sourceTree = "<group>"; };
 		47926121138C1FE1006758E5 /* NSManagedObjectExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSManagedObjectExtensions.m; sourceTree = "<group>"; };
 		47926135138C2071006758E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47926137138C21E7006758E5 /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 		4792605E138BE650006758E5 = {
 			isa = PBXGroup;
 			children = (
+				47926137138C21E7006758E5 /* readme.txt */,
 				4792610D138C1FE1006758E5 /* FWUIKit */,
 				47926119138C1FE1006758E5 /* FWCoreData */,
 				47926104138C1FC1006758E5 /* FWFramework */,
