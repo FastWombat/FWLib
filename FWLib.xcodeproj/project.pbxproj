@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4792606D138BE650006758E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4792606C138BE650006758E5 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47926069138BE650006758E5 /* libFWLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFWLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4792606C138BE650006758E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47926070138BE650006758E5 /* FWLib-Prefix.pch */ = {isa = PBXFileReference; path = "FWLib-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47926066138BE650006758E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4792606D138BE650006758E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4792605E138BE650006758E5 = {
+			isa = PBXGroup;
+			children = (
+				4792606E138BE650006758E5 /* FWLib */,
+				4792606B138BE650006758E5 /* Frameworks */,
+				4792606A138BE650006758E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4792606A138BE650006758E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47926069138BE650006758E5 /* libFWLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4792606B138BE650006758E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4792606C138BE650006758E5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4792606E138BE650006758E5 /* FWLib */ = {
+			isa = PBXGroup;
+			children = (
+				4792606F138BE650006758E5 /* Supporting Files */,
+			);
+			path = FWLib;
+			sourceTree = "<group>";
+		};
+		4792606F138BE650006758E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47926070138BE650006758E5 /* FWLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47926067138BE650006758E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47926068138BE650006758E5 /* FWLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47926073138BE650006758E5 /* Build configuration list for PBXNativeTarget "FWLib" */;
+			buildPhases = (
+				47926065138BE650006758E5 /* Sources */,
+				47926066138BE650006758E5 /* Frameworks */,
+				47926067138BE650006758E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FWLib;
+			productName = FWLib;
+			productReference = 47926069138BE650006758E5 /* libFWLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47926060138BE650006758E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Demand Media, Inc";
+			};
+			buildConfigurationList = 47926063138BE650006758E5 /* Build configuration list for PBXProject "FWLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4792605E138BE650006758E5;
+			productRefGroup = 4792606A138BE650006758E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47926068138BE650006758E5 /* FWLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47926065138BE650006758E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47926071138BE650006758E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47926072138BE650006758E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		47926074138BE650006758E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/FWLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FWLib/FWLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47926075138BE650006758E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/FWLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FWLib/FWLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47926063138BE650006758E5 /* Build configuration list for PBXProject "FWLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47926071138BE650006758E5 /* Debug */,
+				47926072138BE650006758E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47926073138BE650006758E5 /* Build configuration list for PBXNativeTarget "FWLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47926074138BE650006758E5 /* Debug */,
+				47926075138BE650006758E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47926060138BE650006758E5 /* Project object */;
+}
