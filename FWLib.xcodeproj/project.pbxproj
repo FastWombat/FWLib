@@ -9,30 +9,30 @@
 /* Begin PBXBuildFile section */
 		4792606D138BE650006758E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4792606C138BE650006758E5 /* Foundation.framework */; };
 		479260AC138BE8F2006758E5 /* FWLib-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 479260AB138BE8F2006758E5 /* FWLib-Prefix.pch */; };
-		479260B0138BE9BE006758E5 /* FWMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 479260AF138BE9BE006758E5 /* FWMacros.h */; settings = {ATTRIBUTES = (); }; };
+		479260B0138BE9BE006758E5 /* FWMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 479260AF138BE9BE006758E5 /* FWMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		479260B4138BEECC006758E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479260B3138BEECC006758E5 /* CoreData.framework */; };
-		47926109138C1FC1006758E5 /* FWKeyValueObserver+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926105138C1FC1006758E5 /* FWKeyValueObserver+Blocks.h */; };
+		47926109138C1FC1006758E5 /* FWKeyValueObserver+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926105138C1FC1006758E5 /* FWKeyValueObserver+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4792610A138C1FC1006758E5 /* FWKeyValueObserver+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926106138C1FC1006758E5 /* FWKeyValueObserver+Blocks.m */; };
-		4792610B138C1FC1006758E5 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926107138C1FC1006758E5 /* NSData+Base64.h */; };
+		4792610B138C1FC1006758E5 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926107138C1FC1006758E5 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4792610C138C1FC1006758E5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926108138C1FC1006758E5 /* NSData+Base64.m */; };
-		47926122138C1FE1006758E5 /* FWReselectableSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4792610E138C1FE1006758E5 /* FWReselectableSegmentedControl.h */; };
+		47926122138C1FE1006758E5 /* FWReselectableSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4792610E138C1FE1006758E5 /* FWReselectableSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47926123138C1FE1006758E5 /* FWReselectableSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792610F138C1FE1006758E5 /* FWReselectableSegmentedControl.m */; };
-		47926124138C1FE1006758E5 /* FWRoundedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926110138C1FE1006758E5 /* FWRoundedImageView.h */; };
+		47926124138C1FE1006758E5 /* FWRoundedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926110138C1FE1006758E5 /* FWRoundedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47926125138C1FE1006758E5 /* FWRoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926111138C1FE1006758E5 /* FWRoundedImageView.m */; };
-		47926126138C1FE1006758E5 /* FWUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926112138C1FE1006758E5 /* FWUIKit.h */; };
-		47926127138C1FE1006758E5 /* FWUITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926113138C1FE1006758E5 /* FWUITableViewCell.h */; };
+		47926126138C1FE1006758E5 /* FWUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926112138C1FE1006758E5 /* FWUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47926127138C1FE1006758E5 /* FWUITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926113138C1FE1006758E5 /* FWUITableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47926128138C1FE1006758E5 /* FWUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926114138C1FE1006758E5 /* FWUITableViewCell.m */; };
-		47926129138C1FE1006758E5 /* FWUIViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926115138C1FE1006758E5 /* FWUIViewAdditions.h */; };
+		47926129138C1FE1006758E5 /* FWUIViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926115138C1FE1006758E5 /* FWUIViewAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4792612A138C1FE1006758E5 /* FWUIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926116138C1FE1006758E5 /* FWUIViewAdditions.m */; };
-		4792612B138C1FE1006758E5 /* FWUIViewControllerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926117138C1FE1006758E5 /* FWUIViewControllerAdditions.h */; };
+		4792612B138C1FE1006758E5 /* FWUIViewControllerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926117138C1FE1006758E5 /* FWUIViewControllerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4792612C138C1FE1006758E5 /* FWUIViewControllerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926118138C1FE1006758E5 /* FWUIViewControllerAdditions.m */; };
-		4792612D138C1FE1006758E5 /* FWCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4792611A138C1FE1006758E5 /* FWCoreData.h */; };
-		4792612E138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4792611B138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.h */; };
+		4792612D138C1FE1006758E5 /* FWCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4792611A138C1FE1006758E5 /* FWCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4792612E138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4792611B138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4792612F138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792611C138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.m */; };
 		47926130138C1FE1006758E5 /* NSManagedObject+DebugProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792611D138C1FE1006758E5 /* NSManagedObject+DebugProperties.m */; };
-		47926131138C1FE1006758E5 /* NSManagedObjectContextExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4792611E138C1FE1006758E5 /* NSManagedObjectContextExtensions.h */; };
+		47926131138C1FE1006758E5 /* NSManagedObjectContextExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4792611E138C1FE1006758E5 /* NSManagedObjectContextExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47926132138C1FE1006758E5 /* NSManagedObjectContextExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792611F138C1FE1006758E5 /* NSManagedObjectContextExtensions.m */; };
-		47926133138C1FE1006758E5 /* NSManagedObjectExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926120138C1FE1006758E5 /* NSManagedObjectExtensions.h */; };
+		47926133138C1FE1006758E5 /* NSManagedObjectExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926120138C1FE1006758E5 /* NSManagedObjectExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47926134138C1FE1006758E5 /* NSManagedObjectExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926121138C1FE1006758E5 /* NSManagedObjectExtensions.m */; };
 		47926136138C2071006758E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47926135138C2071006758E5 /* UIKit.framework */; };
 /* End PBXBuildFile section */
@@ -41,7 +41,7 @@
 		47926069138BE650006758E5 /* libFWLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFWLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4792606C138BE650006758E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		479260AB138BE8F2006758E5 /* FWLib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FWLib-Prefix.pch"; sourceTree = "<group>"; };
-		479260AF138BE9BE006758E5 /* FWMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWMacros.h; sourceTree = "<group>"; };
+		479260AF138BE9BE006758E5 /* FWMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FWMacros.h; path = Sources/Supporting/FWMacros.h; sourceTree = SOURCE_ROOT; };
 		479260B3138BEECC006758E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		47926105138C1FC1006758E5 /* FWKeyValueObserver+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FWKeyValueObserver+Blocks.h"; sourceTree = "<group>"; };
 		47926106138C1FC1006758E5 /* FWKeyValueObserver+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FWKeyValueObserver+Blocks.m"; sourceTree = "<group>"; };
@@ -277,6 +277,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -291,6 +292,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
