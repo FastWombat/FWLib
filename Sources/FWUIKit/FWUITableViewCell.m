@@ -61,7 +61,7 @@ static id __nibCache = nil;
 	// reuse identifier should be the same as our class identifier
 	NSAssert1([cell.reuseIdentifier isEqualToString:[[self class] reuseIdentifier]], @"cell reuse identifier must be set to %@ in nib", [[self class] reuseIdentifier]);
 	
-	return [cell retain];
+	return (id)[cell retain];
 }
 
 @end
