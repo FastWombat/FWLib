@@ -20,6 +20,15 @@ static id __nibCache = nil;
 	return [cell autorelease];
 }
 
++ (id)reusableCellFromTableView:(UITableView *)tableView  {
+    FWUITableViewCell* cell = (FWUITableViewCell*)[tableView dequeueReusableCellWithIdentifier:[self reuseIdentifier]];
+    if (cell == nil) {
+        cell = [self cell];
+    }
+    return cell;
+}
+
+
 + (id)allocWithNibName:(NSString *)nibName {
 	// default to name of class
 	if (nibName == nil) {
