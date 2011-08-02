@@ -118,7 +118,30 @@ FORCE_LINKER_TO_FIND_CATEGORY(NSManagedObjectExtensions);
 	return count;
 }
 
-+ (NSArray *)fetchWithPredicate:(id)stringOrPredicate withSortKey:(NSString *)keyPath ascending:(BOOL)ascending inManagedObjectContext:(NSManagedObjectContext*)context {
++ (NSNumber *)aggregateOperation:(NSString *)function onAttribute:(NSString *)attributeName withPredicate:(NSPredicate *)predicate inManagedObjectContext:(NSManagedObjectContext *)context {
+    NSExpression *ex = [NSExpression expressionForFunction:function 
+                                                 arguments:[NSArray arrayWithObject:[NSExpression expressionForKeyPath:attributeName]]];
+    
+    NSExpressionDescription *ed = [[NSExpressionDescription alloc] init];
+    [ed setName:@"result"];
+    [ed setExpression:ex];
+    [ed setExpressionResultType:NSInteger64AttributeType];
+    
+    NSArray *properties = [NSArray arrayWithObject:ed];
+    FWRelease(ed);
+    
+    NSFetchRequest *request = [self fetchRequestWithPredicate:predicate inManagedObjectContext:context];
+    [request setPropertiesToFetch:properties];
+    [request setResultType:NSDictionaryResultType];    
+    
+    NSArray *results = [context executeFetchRequest:request];
+    NSDictionary *resultsDictionary = [results objectAtIndex:0];
+    NSNumber *resultValue = [resultsDictionary objectForKey:@"result"];
+
+    return resultValue;    
+}
+
++(NSArray *)fetchWithPredicate:(id)stringOrPredicate withSortKey:(NSString *)keyPath ascending:(BOOL)ascending inManagedObjectContext:(NSManagedObjectContext*)context {
 	NSFetchRequest* fetchRequest = [self fetchRequestWithPredicate:stringOrPredicate withSortKey:keyPath ascending:ascending inManagedObjectContext:context];
 	NSError *error = nil;
 	NSArray *results = [context executeFetchRequest:fetchRequest error:&error];

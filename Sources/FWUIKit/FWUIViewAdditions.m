@@ -8,6 +8,7 @@
 
 #import "FWUIViewAdditions.h"
 
+FORCE_LINKER_TO_FIND_CATEGORY(FWUIViewAdditions);
 
 @implementation UIView (FWUIViewAdditions)
 

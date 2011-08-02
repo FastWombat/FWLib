@@ -20,6 +20,15 @@ static id __nibCache = nil;
 	return [cell autorelease];
 }
 
++ (id)reusableCellFromTableView:(UITableView *)tableView  {
+    FWUITableViewCell* cell = (FWUITableViewCell*)[tableView dequeueReusableCellWithIdentifier:[self reuseIdentifier]];
+    if (cell == nil) {
+        cell = [self cell];
+    }
+    return cell;
+}
+
+
 + (id)allocWithNibName:(NSString *)nibName {
 	// default to name of class
 	if (nibName == nil) {
@@ -61,7 +70,7 @@ static id __nibCache = nil;
 	// reuse identifier should be the same as our class identifier
 	NSAssert1([cell.reuseIdentifier isEqualToString:[[self class] reuseIdentifier]], @"cell reuse identifier must be set to %@ in nib", [[self class] reuseIdentifier]);
 	
-	return [cell retain];
+	return (id)[cell retain];
 }
 
 @end
