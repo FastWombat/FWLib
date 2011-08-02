@@ -9,6 +9,8 @@
 #import "FWUIViewControllerAdditions.h"
 
 
+FORCE_LINKER_TO_FIND_CATEGORY(FWUIViewControllerAdditions);
+
 @implementation UIViewController (FWUIViewControllerAdditions)
 
 - (id)initWithNib {

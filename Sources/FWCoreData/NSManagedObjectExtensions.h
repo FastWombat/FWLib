@@ -48,4 +48,7 @@
 // converts an array of object IDs into objects
 + (NSArray*)objectsWithIDs:(NSArray*)managedObjectIds inManagedObjectContext:(NSManagedObjectContext*)context;
 
+// aggregate operation like sum, max, or min
++ (NSNumber *)aggregateOperation:(NSString *)function onAttribute:(NSString *)attributeName withPredicate:(NSPredicate *)predicate inManagedObjectContext:(NSManagedObjectContext*)context;
+
 @end
