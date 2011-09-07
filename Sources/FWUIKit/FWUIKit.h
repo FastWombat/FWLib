@@ -9,3 +9,4 @@
 #import "FWUIViewControllerAdditions.h"
 #import "FWRoundedImageView.h"
 #import "FWReselectableSegmentedControl.h"
+#import "FWPopoverManager.h"

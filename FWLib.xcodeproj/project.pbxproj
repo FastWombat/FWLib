@@ -35,6 +35,8 @@
 		47926133138C1FE1006758E5 /* NSManagedObjectExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47926120138C1FE1006758E5 /* NSManagedObjectExtensions.h */; settings = {ATTRIBUTES = (); }; };
 		47926134138C1FE1006758E5 /* NSManagedObjectExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47926121138C1FE1006758E5 /* NSManagedObjectExtensions.m */; };
 		47926136138C2071006758E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47926135138C2071006758E5 /* UIKit.framework */; };
+		47C39B2F1418129900746620 /* FWPopoverManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C39B2D1418129900746620 /* FWPopoverManager.h */; };
+		47C39B33141812CC00746620 /* FWPopoverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C39B32141812CC00746620 /* FWPopoverManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		47926121138C1FE1006758E5 /* NSManagedObjectExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSManagedObjectExtensions.m; sourceTree = "<group>"; };
 		47926135138C2071006758E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		47926137138C21E7006758E5 /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		47C39B2D1418129900746620 /* FWPopoverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWPopoverManager.h; sourceTree = "<group>"; };
+		47C39B32141812CC00746620 /* FWPopoverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWPopoverManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				47926112138C1FE1006758E5 /* FWUIKit.h */,
+				47C39B32141812CC00746620 /* FWPopoverManager.m */,
+				47C39B2D1418129900746620 /* FWPopoverManager.h */,
 				4792610F138C1FE1006758E5 /* FWReselectableSegmentedControl.m */,
 				4792610E138C1FE1006758E5 /* FWReselectableSegmentedControl.h */,
 				47926111138C1FE1006758E5 /* FWRoundedImageView.m */,
@@ -193,6 +199,7 @@
 				4792612E138C1FE1006758E5 /* NSFetchedResultsControllerExtensions.h in Headers */,
 				47926131138C1FE1006758E5 /* NSManagedObjectContextExtensions.h in Headers */,
 				47926133138C1FE1006758E5 /* NSManagedObjectExtensions.h in Headers */,
+				47C39B2F1418129900746620 /* FWPopoverManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 				47926130138C1FE1006758E5 /* NSManagedObject+DebugProperties.m in Sources */,
 				47926132138C1FE1006758E5 /* NSManagedObjectContextExtensions.m in Sources */,
 				47926134138C1FE1006758E5 /* NSManagedObjectExtensions.m in Sources */,
+				47C39B33141812CC00746620 /* FWPopoverManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
