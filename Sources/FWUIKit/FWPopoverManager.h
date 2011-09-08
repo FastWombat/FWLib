@@ -14,6 +14,9 @@
 
 + (FWPopoverManager*)defaultManager;
 
++ (UIPopoverController*)popoverControllerWithContentViewController:(UIViewController*)viewController;
+
+
 - (UIPopoverController*)popoverControllerWithContentViewController:(UIViewController*)viewController;
 @property (nonatomic, readonly) UIPopoverController* currentPopoverController;
 

@@ -22,6 +22,11 @@
     return defaultManager;
 }
 
++ (UIPopoverController*)popoverControllerWithContentViewController:(UIViewController*)viewController {
+    return [[FWPopoverManager defaultManager] popoverControllerWithContentViewController:viewController];
+}
+
+
 - (UIPopoverController*)popoverControllerWithContentViewController:(UIViewController*)viewController {
     // release any existing popover, it will be freed on dismissal
     [_currentPopoverController dismissPopoverAnimated:YES];
